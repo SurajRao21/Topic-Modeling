@@ -2,6 +2,8 @@
 import pandas as pd
 from bertopic import BERTopic
 from sklearn.feature_extraction.text import CountVectorizer
+from gensim import corpora
+from gensim.models import CoherenceModel
 
 # Step 2: Load and Filter Relevant Summaries
 # Load the dataset (make sure the 'summaries.csv' file is in the correct path)
@@ -37,3 +39,28 @@ else:
     for i, topic in enumerate(unique_topics, 1):
         print(f"{i}. {topic}")
 
+# Step 6: Extract Top Words for Each Topic
+# Extract the top 10 words for each topic (you can adjust this number)
+top_words_per_topic = topic_model.get_topics()
+
+# Step 7: Prepare Gensim Dictionary and Corpus
+# Prepare the corpus and dictionary from the relevant summaries
+texts = [summary.split() for summary in relevant_summaries]  # Tokenize summaries
+dictionary = corpora.Dictionary(texts)
+corpus = [dictionary.doc2bow(text) for text in texts]
+
+# Step 8: Calculate Coherence Score using Gensim's CoherenceModel
+# We need to pass the top words (as a list of words) and the dictionary for coherence calculation
+topics_for_coherence = []
+
+# Iterate over the extracted topics and add the top words to topics_for_coherence
+for i in range(len(top_words_per_topic)):
+    # Check if the topic index exists (i.e., is not missing or out of range)
+    if i in top_words_per_topic:
+        topics_for_coherence.append([word[0] for word in top_words_per_topic[i]])
+
+# Calculate coherence score
+coherence_model = CoherenceModel(topics=topics_for_coherence, texts=texts, dictionary=dictionary, coherence='c_w2v')
+coherence_score = coherence_model.get_coherence()
+
+print(f"Coherence Score: {coherence_score}")
