@@ -1,0 +1,51 @@
+text,neg,neu,pos,compound,label
+Climate change impacts biodiversity across the globe.,0.0,1.0,0.0,0.0,neu
+Deforestation contributes to rising carbon dioxide levels.,0.0,1.0,0.0,0.0,neu
+Renewable energy sources like wind and solar are crucial.,0.0,0.603,0.397,0.5574,pos
+Ocean pollution is harming marine life ecosystems.,0.375,0.625,0.0,-0.5574,neg
+Sustainable farming can reduce environmental damage.,0.39,0.61,0.0,-0.4939,neg
+Wildlife conservation helps preserve endangered species.,0.0,0.658,0.342,0.3818,pos
+Plastic waste management is a pressing global issue.,0.318,0.682,0.0,-0.4215,neg
+Air quality in urban areas is deteriorating due to emissions.,0.0,1.0,0.0,0.0,neu
+Water scarcity affects millions worldwide.,0.0,1.0,0.0,0.0,neu
+Global warming increases the risk of natural disasters.,0.413,0.29,0.297,-0.3818,neg
+Artificial intelligence is transforming industries.,0.0,0.563,0.437,0.4767,pos
+Quantum computing will revolutionize cryptography.,0.0,1.0,0.0,0.0,neu
+5G networks enable faster communication speeds.,0.0,1.0,0.0,0.0,neu
+Cybersecurity is critical in the digital age.,0.277,0.723,0.0,-0.3182,neg
+Machine learning models improve with more data.,0.0,0.674,0.326,0.4404,pos
+Blockchain technology supports decentralized finance.,0.0,0.615,0.385,0.3612,pos
+Augmented reality is changing retail experiences.,0.0,1.0,0.0,0.0,neu
+Cloud computing offers scalable storage solutions.,0.0,0.746,0.254,0.1779,pos
+Autonomous vehicles rely on advanced sensors.,0.0,0.714,0.286,0.25,pos
+Robotics is enhancing manufacturing efficiency.,0.0,0.615,0.385,0.3612,pos
+Electric vehicles reduce dependency on fossil fuels.,0.0,1.0,0.0,0.0,neu
+Smart grids optimize renewable energy distribution.,0.0,0.273,0.727,0.7906,pos
+Green data centers improve energy efficiency.,0.0,0.286,0.714,0.7579,pos
+Biotechnology innovations support medical research.,0.0,0.597,0.403,0.4019,pos
+Urban planning integrates green infrastructure.,0.0,1.0,0.0,0.0,neu
+Space exploration expands human knowledge.,0.0,0.476,0.524,0.3182,pos
+Satellite imagery monitors environmental changes.,0.0,1.0,0.0,0.0,neu
+Digital twins simulate real-world systems.,0.0,1.0,0.0,0.0,neu
+Nanotechnology advances material science.,0.0,1.0,0.0,0.0,neu
+Wearable devices track health metrics.,0.0,1.0,0.0,0.0,neu
+AI helps optimize solar panel performance.,0.0,0.408,0.592,0.7003,pos
+IoT sensors track air pollution in real time.,0.0,1.0,0.0,0.0,neu
+Drones assist in wildlife monitoring.,0.0,1.0,0.0,0.0,neu
+Energy storage batteries support renewable power.,0.0,0.455,0.545,0.5859,pos
+Precision agriculture uses satellite and AI data.,0.0,1.0,0.0,0.0,neu
+Marine robots explore ocean ecosystems.,0.0,1.0,0.0,0.0,neu
+Smart homes use energy efficiently.,0.0,0.211,0.789,0.7579,pos
+3D printing creates sustainable building materials.,0.0,0.704,0.296,0.2732,pos
+Big data analytics inform climate policy.,0.0,1.0,0.0,0.0,neu
+Robotics assists in disaster recovery.,0.506,0.494,0.0,-0.6249,neg
+Hydroelectric dams generate clean energy.,0.0,0.385,0.615,0.5859,pos
+Digital currencies disrupt financial systems.,0.0,1.0,0.0,0.0,neu
+Recycling technologies improve waste processing.,0.322,0.345,0.333,0.0258,neu
+AI-driven healthcare diagnostics save lives.,0.0,0.556,0.444,0.4939,pos
+Cloud platforms support remote workforces.,0.0,0.597,0.403,0.4019,pos
+Wildfires are becoming more frequent worldwide.,0.0,1.0,0.0,0.0,neu
+Advanced sensors detect methane leaks.,0.0,0.667,0.333,0.25,pos
+Self-driving trucks deliver goods autonomously.,0.0,1.0,0.0,0.0,neu
+Satellite networks provide internet to rural areas.,0.0,1.0,0.0,0.0,neu
+Urban green spaces improve mental health.,0.0,0.633,0.367,0.4404,pos
